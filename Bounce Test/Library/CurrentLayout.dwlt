@@ -369,7 +369,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e026ffff98fbffffa2fbffffa6fbffff00000000c6270000ee270000
+    m_ExpandedIDs: 9cfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,14 +419,14 @@ MonoBehaviour:
     width: 1008
     height: 433
   m_SceneLighting: 1
-  lastFramingTime: 1291.0502797640618
+  lastFramingTime: 124.07582328480194
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1671.184, y: 623.7277, z: -11.901473}
+    m_Target: {x: 0, y: 5.728, z: -4.95}
     speed: 2
-    m_Value: {x: 1671.184, y: 623.7277, z: -11.901473}
+    m_Value: {x: 0, y: 5.728, z: -4.95}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -453,9 +453,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3022.8794
+    m_Target: 17.129818
     speed: 2
-    m_Value: 3022.8794
+    m_Value: 17.129818
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -579,13 +579,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Prefab
   m_LastFoldersGridSize: 54
-  m_LastProjectPath: C:\Users\Andrea\Desktop\Unity\Bounce Test
+  m_LastProjectPath: C:\Users\Andrea\Desktop\Gioco Casual\BouncingBall\BouncingBall\Bounce
+    Test
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64270000
-    m_LastClickedID: 10084
-    m_ExpandedIDs: 000000003027000000ca9a3bffffff7f
+    m_SelectedIDs: 6a270000
+    m_LastClickedID: 10090
+    m_ExpandedIDs: 000000003227000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -613,7 +614,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000030270000
+    m_ExpandedIDs: 0000000032270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
