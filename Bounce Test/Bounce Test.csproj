@@ -226,6 +226,8 @@
     <Compile Include="Assets\Scripts\LoadLevels.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\RotateOneWay.cs" />
+    <Compile Include="Assets\Scripts\ToLevelTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

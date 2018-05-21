@@ -1,20 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+public class ToLevelTest : MonoBehaviour {
 
-public class GMan : MonoBehaviour {
-    public bool death = false;
-    public GameObject deathcanv;
 	// Use this for initialization
 	void Start () {
-        deathcanv.SetActive(false);
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (death)
+		if (Input.GetKeyDown(KeyCode.T))
         {
-            deathcanv.SetActive(true);
+            SceneManager.LoadScene("test");
         }
 	}
 }

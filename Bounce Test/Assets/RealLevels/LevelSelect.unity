@@ -444,6 +444,7 @@ GameObject:
   - component: {fileID: 551011439}
   - component: {fileID: 551011438}
   - component: {fileID: 551011437}
+  - component: {fileID: 551011440}
   m_Layer: 5
   m_Name: LV2Button
   m_TagString: Untagged
@@ -508,7 +509,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 551011438}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 551011440}
+        m_MethodName: NextScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &551011438
@@ -544,6 +556,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 551011435}
+--- !u!114 &551011440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 551011435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a10215ca8f9a7845a748955ae1ca783, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &633352399
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,6 +1541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2116243412}
   - component: {fileID: 2116243411}
+  - component: {fileID: 2116243413}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -1549,3 +1573,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2116243413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2116243410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ecbf6af6cd914e43ac018ebe4102ce7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
