@@ -55,7 +55,7 @@ Transform:
   m_GameObject: {fileID: 1677544911479636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 6.32, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 4599720988120928}
   m_Father: {fileID: 0}
@@ -105,6 +105,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -121,8 +122,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.01
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.4
+  m_AngularDrag: 0.4
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: eb174266608135b4482c5160a87824fd, type: 2}
   m_Interpolate: 0
