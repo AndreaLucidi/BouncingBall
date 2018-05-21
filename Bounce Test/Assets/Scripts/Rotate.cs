@@ -17,11 +17,11 @@ public class Rotate : MonoBehaviour {
             this.gameObject.GetComponent<SpriteRenderer>().color = new Color32(0, 0, 255, 255);
             if (Input.GetMouseButton(0))
             {
-                transform.Rotate(0, 0, 1 * Time.deltaTime * rotationspeed);
+                transform.Rotate(0, 0, 2 * Time.deltaTime * rotationspeed);
             }
             if (Input.GetMouseButton(1))
             {
-                transform.Rotate(0, 0, -1 * Time.deltaTime * rotationspeed);
+                transform.Rotate(0, 0, -2 * Time.deltaTime * rotationspeed);
             }
         }
         if (reverse)
@@ -29,11 +29,11 @@ public class Rotate : MonoBehaviour {
             this.gameObject.GetComponent<SpriteRenderer>().color = new Color32(255, 0, 0, 255);
             if (Input.GetMouseButton(0))
             {
-                transform.Rotate(0, 0, -1 * Time.deltaTime * rotationspeed);
+                transform.Rotate(0, 0, -2 * Time.deltaTime * rotationspeed);
             }
             if (Input.GetMouseButton(1))
             {
-                transform.Rotate(0, 0, 1 * Time.deltaTime * rotationspeed);
+                transform.Rotate(0, 0, 2 * Time.deltaTime * rotationspeed);
             }
         }
     }
