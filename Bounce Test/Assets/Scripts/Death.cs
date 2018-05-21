@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Death : MonoBehaviour {
-    public GameObject deathcanvas;
+    //public GameObject deathcanvas;
     public GameObject deathposition;
     public Vector3 dp;
     public GameObject pausebutton;
@@ -12,7 +12,8 @@ public class Death : MonoBehaviour {
     public GameObject gman;
     // Use this for initialization
 	void Start () {
-        deathcanvas.SetActive(false);
+        //deathcanvas.SetActive(false);
+        gman.GetComponent<GMan>().death = false;
 	}
 	
 	// Update is called once per frame
@@ -28,7 +29,8 @@ public class Death : MonoBehaviour {
             dp = collision.gameObject.transform.position;
             Instantiate(deathposition, dp, Quaternion.identity);
             Destroy(collision.gameObject);
-            deathcanvas.SetActive(true);
+            //deathcanvas.SetActive(true);
+            gman.GetComponent<GMan>().death = true;
             pausebutton.SetActive(false);
             StartCoroutine(sound());
         }

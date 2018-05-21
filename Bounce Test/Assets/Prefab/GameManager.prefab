@@ -111,6 +111,7 @@ GameObject:
   - component: {fileID: 114739148525422166}
   - component: {fileID: 114942901651147976}
   - component: {fileID: 82268046508387638}
+  - component: {fileID: 114574055428200342}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -1240,6 +1241,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Return
+--- !u!114 &114574055428200342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1348055214112318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8c9134d81994840bcf9535a29e7c0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  death: 0
+  deathcanv: {fileID: 1836904848708048}
 --- !u!114 &114576482626434960
 MonoBehaviour:
   m_ObjectHideFlags: 1

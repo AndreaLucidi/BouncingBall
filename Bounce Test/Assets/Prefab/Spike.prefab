@@ -78,7 +78,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43eec40b421823543a048042230c5702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathcanvas: {fileID: 0}
   deathposition: {fileID: 1021771416756402, guid: c4de5a7dac622ea44840299b8da76960,
     type: 2}
   dp: {x: 0, y: 0, z: 0}

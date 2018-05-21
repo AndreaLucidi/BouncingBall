@@ -222,6 +222,7 @@
     <Compile Include="Assets\Scripts\Completed.cs" />
     <Compile Include="Assets\Scripts\Death.cs" />
     <Compile Include="Assets\Scripts\GameMan.cs" />
+    <Compile Include="Assets\Scripts\GMan.cs" />
     <Compile Include="Assets\Scripts\LoadLevels.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />

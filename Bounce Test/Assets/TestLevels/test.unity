@@ -408,11 +408,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114683732438885626, guid: e459d5aa83c3b1d4ab844c9737ff41f8,
         type: 2}
-      propertyPath: deathcanvas
-      value: 
-      objectReference: {fileID: 1216408109}
-    - target: {fileID: 114683732438885626, guid: e459d5aa83c3b1d4ab844c9737ff41f8,
-        type: 2}
       propertyPath: pausebutton
       value: 
       objectReference: {fileID: 415611320}
@@ -421,10 +416,6 @@ Prefab:
       propertyPath: gman
       value: 
       objectReference: {fileID: 989295937}
-    - target: {fileID: 4101119398195722, guid: e459d5aa83c3b1d4ab844c9737ff41f8, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.02
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e459d5aa83c3b1d4ab844c9737ff41f8, type: 2}
   m_IsPrefabParent: 0
@@ -626,11 +617,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1216408109 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1836904848708048, guid: 1502f7322cb23a44c8e235d622fc9582,
-    type: 2}
-  m_PrefabInternal: {fileID: 1773810929}
 --- !u!1 &1534440234
 GameObject:
   m_ObjectHideFlags: 0
