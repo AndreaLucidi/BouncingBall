@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 20157573175836452}
   - component: {fileID: 124468420332696804}
   - component: {fileID: 81240212561971750}
+  - component: {fileID: 114745789852489164}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -54,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1677544911479636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.32, z: 0}
+  m_LocalPosition: {x: 4.52, y: 6.93, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 4599720988120928}
@@ -105,7 +106,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -122,9 +122,9 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0.4
-  m_AngularDrag: 0.4
-  m_GravityScale: 1
+  m_LinearDrag: 0.7
+  m_AngularDrag: 0.7
+  m_GravityScale: 1.27
   m_Material: {fileID: 6200000, guid: eb174266608135b4482c5160a87824fd, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -152,6 +152,21 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1249730581620906}
   m_Enabled: 1
+--- !u!114 &114745789852489164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1249730581620906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1690312454, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!124 &124468420332696804
 Behaviour:
   m_ObjectHideFlags: 1
